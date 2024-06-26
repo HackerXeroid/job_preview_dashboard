@@ -1,0 +1,25 @@
+.pageChangeButtonContainer {
+  box-shadow: 0px 4px 4px 0px #00000040 inset;
+
+  border-radius: 36px;
+}
+
+.newMessage {
+  position: relative;
+}
+
+.newMessage::before {
+  content: "";
+  @apply -top-0.75 -right-0.75 w-1.5 h-1.5 absolute bg-primary rounded-full;
+}
+
+.newNotification {
+  position: relative;
+}
+
+.newNotification::before {
+  content: "";
+  top: 0;
+  right: 0;
+  @apply w-1.5 h-1.5 absolute bg-primary rounded-full;
+}

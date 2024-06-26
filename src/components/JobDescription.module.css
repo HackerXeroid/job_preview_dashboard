@@ -1,0 +1,29 @@
+.h4Text {
+  color: #5d5d5d;
+}
+
+.boxShadow {
+  box-shadow: -4px 8px 20px 0px #0000001a;
+  border: 1px solid #f7f7f7;
+}
+
+.jobSkillsColor {
+  color: #6e6d6d;
+}
+
+.skillBadge {
+  display: inline-block;
+  border: 1px solid #d0d5dd;
+  border-radius: 0.375rem;
+  box-shadow: 0px 4px 4px 0px #00000014 inset;
+}
+
+.jobBody {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: calc(100vh - 11.5rem);
+}
+
+.btnBoxShadow {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}

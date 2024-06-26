@@ -1,0 +1,8 @@
+button.btnActive {
+  @apply relative text-primary;
+}
+
+button.btnActive::after {
+  content: "";
+  @apply absolute -translate-x-1/2 left-1/2 bottom-0 w-1/2 h-0.5 bg-primary;
+}
