@@ -17,7 +17,7 @@ function JobDescription() {
   return (
     <div className="flex">
       {/* Job Container */}
-      <div className={`pt-9 pl-25 w-4/5`}>
+      <div className={`pt-9 pl-25 w-4/5 ${styles.jobContainer}`}>
         <div className="mb-6">
           {/* Job Heading */}
           <div className="flex gap-3 items-center mb-6">

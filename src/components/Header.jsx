@@ -9,7 +9,7 @@ import AtlassionLogo from "/atlassian-logo.jpg";
 
 function Header() {
   return (
-    <header className="h-28 flex items-center">
+    <header className={`h-28 flex items-center`}>
       <nav className="flex justify-between flex-1">
         <div
           id="logo"
@@ -19,7 +19,9 @@ function Header() {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="text-xl bg-primary p-4 rounded-[50px] text-white flex gap-1 shadow-lg ring-2 ring-[#FCB4A5] ring-inset">
+          <button
+            className={`text-xl bg-primary p-4 rounded-[50px] text-white flex gap-1 ${styles.jobsButton}`}
+          >
             <img src={BriefcaseIcon} alt="Briefcase Icon" />
             Jobs
           </button>

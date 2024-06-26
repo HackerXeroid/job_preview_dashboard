@@ -6,7 +6,7 @@ function App() {
   // No joke, UI is a function of state which is nothing but data. So, I need full info to make it work properly.
 
   return (
-    <div className="font-[poppins]">
+    <div className="font-[poppins] overflow-hidden w-full h-screen">
       <Header />
       <JobsTabHeader />
       <JobDescription />
